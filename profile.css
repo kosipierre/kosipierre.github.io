@@ -6,11 +6,13 @@
 
 }
 
-h1 {
+h1, p {
 
   text-align: center;
 
 }
+
+
 
 #header{
 
@@ -37,8 +39,8 @@ h1 {
 
   flex: 3;
   background-color: red;
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
 
 }
 
@@ -46,6 +48,6 @@ h1 {
 
   flex: 4;
   background-color: blue;
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
 }
