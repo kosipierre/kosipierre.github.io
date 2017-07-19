@@ -1,6 +1,38 @@
+body {
+  margin-top: 100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Poppins;
+}
+
+p{
+  font-family: Roboto;
+}
+.onPoint {
+  length: 50%;
+  height: 50%;
+}
+
 .navbar-default {
   background:#fff;
   border:0;
   font-family:Poppins;
 
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#showcase img {
+  width: 60%;
+  margin-left: 100px;
 }
