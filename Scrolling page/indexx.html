@@ -6,11 +6,10 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <script src='/js/scrollreveal.min.js'></script>
   </head>
   <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav data-sr="enter left over 2s" class="navbar navbar-default navbar-fixed-top" >
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -32,34 +31,130 @@
     </nav>
 
     <section id="showcase">
-
       <div class="container">
         <div class="row">
 
           <div class="col-md-6 col-sm-6">
             <div class="showcase-left">
-              <img src="Images/k.jpg">
+              <img data-sr="spin 60deg, roll 10deg over 2s" src="Images/k.jpg">
             </div>
           </div>
 
           <div class="col-md-6 col-sm-6">
-            <div class="showcase-right">
+            <div data-sr="enter right over 2s and move 100px" class="showcase-right">
               <h1>Welcome</h1>
-              <p>Aenean sodales metus nec bibendum sodales. Nullam sed metus sodales, rutrum magna eu, fermentum enim. Pellentesque egestas, ipsum vel feugiat pretium, mi eros cursus est, ut tristique enim felis eu ligula. Duis et imperdiet lacus. Morbi auctor sapien non risus volutpat, volutpat dictum orci sodales. Curabitur scelerisque libero et dignissim tincidunt. Donec quis condimentum sapien. Sed sollicitudin eleifend lorem at finibus. Maecenas imperdiet pellentesque neque id scelerisque. In ac venenatis dolor. Fusce vel nisl id nulla lacinia venenatis dictum tristique metus. Ut viverra eros quis metus venenatis facilisis. Cras lorem lectus, aliquam eget tristique et, iaculis non arcu. Mauris eu euismod dolor.</p>
+              <p>Aenean sodales metus nec bibendum sodales. Nullam sed metus sodales, rutrum magna eu, fermentum enim. Pellentesque egestas, ipsum vel feugiat pretium, mi eros cursus est, ut tristique enim felis eu ligula. Duis et imperdiet lacus. Morbi auctor sapien non risus volutpat, volutpat dictum orci sodales. Curabitur scelerisque libero et dignissim tincidunt.</p>
             </div>
-            <a class="btn btn-default btn-lg showcase-btn"> Read More </a>
+            <br>
+            <a data-sr="enter right over 2s and move 100px"class="btn btn-default btn-lg showcase-btn"> Read More </a>
           </div>
 
         </div>
       </div>
-
     </section>
+
+    <section id="testemonial">
+      <div class="container">
+        <p data-sr="wait 0.2s please, enter up over 2.5s and move up 10px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi.</p>
+      </div>
+    </section>
+
+    <section id="info1">
+      <div class="container">
+        <div class="row">
+
+          <div data-sr=" spin 90deg over 2s and move 100px vF 0.2" class="col-mid-6 col-sm-6">
+            <div class="info-left">
+              <img src="Images/upL.jpg" alt="">
+            </div>
+          </div>
+
+          <div data-sr="enter right over 2s and move 100px vF 0.2" class="col-mid-6 col-sm-6">
+            <div class="info-right">
+              <h2>More About Me</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proiden.</p>
+              <br>
+              <a class="btn btn-default btn-lg showcase-btn"> Read More </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="info2">
+      <div class="container">
+        <div class="row">
+
+          <div data-sr="enter left over 2s and move 100px vF 0.2" class="col-mid-6 col-sm-6">
+            <div class="info-left">
+              <h2>More Info1</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+          </div>
+
+          <div data-sr="enter right over 2s and move 100px vF 0.2" class="col-mid-6 col-sm-6">
+            <div class="info-right">
+              <h2>More Info2</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-5 col-sm-5">
+            <form>
+              <div class="form-group">
+                <label>Name: </label>
+                <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
+              </div>
+              <div class="form-group">
+                <label>Email: </label>
+                <input class="form-control" type="text" name="" value="" placeholder="Enter Email">
+              </div>
+              <div class="form-group">
+                <label>Message: </label>
+                <textarea class="form-control" name="" value="" placeholder="Enter Message"></textarea>
+              </div>
+              <button class="btn btn-default">Submit</button>
+            </form>
+          </div>
+
+          </div>
+
+          <div class="col-md-7 col-sm-7">
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p> Kosi Copyright &copy; 2017</p>
+    </footer>
 
 
     <script
     src="https://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
+    <script src="js/scrollReveal.min.js"></script>
+    <script>
+
+        window.sr = new scrollReveal();
+
+    </script>
+
   </body>
 </html>
