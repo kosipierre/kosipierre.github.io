@@ -38,6 +38,33 @@ hr {
 }
 
 
+.video-section {
+  position: relative;
+  width: 100%auto;
+  max-height: 550px;
+  overflow: hidden;
+}
+
+#vid_elem {
+  width: 100%;
+}
+
+.video-overlay {
+  position:absolute;
+  top: 40%;
+  left: 37%;
+  background-color: #fff;
+  width: 500px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.video-section:hover{
+  video-overlay opacity: 1;
+}
+
+
 .onPoint {
   length: 50%;
   height: 50%;
