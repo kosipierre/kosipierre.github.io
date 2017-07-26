@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Kosi</title>
+    <!-- this is font -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Roboto" rel="stylesheet">
+    <!-- end font -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/style.css">
   </head>
@@ -40,13 +42,13 @@
 
           <div class="col-md-6 col-sm-6">
             <div class="showcase-left">
-              <img data-sr="spin 60deg, roll 10deg over 2s" src="Images/k.jpg">
+              <img data-sr="spin 60deg, roll 10deg over 2s" src="Images/upL.jpg">
             </div>
           </div>
 
           <div class="col-md-6 col-sm-6">
             <div data-sr="enter right over 2s and move 100px" class="showcase-right">
-              <h1>Welcome</h1>
+              <h1>Nkosi</h1>
               <p> Hello I'm Kosi and welcome to my site! I am a Programmer, Videographer, Photographer, Designer, and Music Producer!
                 This site showcases everything about me, such as my credentials and portfolio.
                 Continue to learn more!!
@@ -60,6 +62,8 @@
       </div>
     </section>
 
+    <!-- start of quote section -->
+
     <section id="testemonial">
       <div class="container">
         <p data-sr="wait 0.2s please, enter up over 2.5s and move up 10px">It always seems immpossible until it's done.</p>
@@ -67,18 +71,25 @@
       </div>
     </section>
 
+    <!-- end of quote section -->
+
 <!-- Start of Prallax Image Test -->
 
 
-    <div class="pimg">
+    <div class="pimg" id="about">
       <div class="ptext">
         <span class="border trans">
 
         </span>
       </div>
+      <div class="video-overlay">
+          <h1>About Me</h1>
+      </div>
     </div>
 
 <!-- End of Parallax Image Test -->
+
+<!-- start of quote section -->
 
     <section id="testemonial1">
       <div class="container">
@@ -87,23 +98,9 @@
       </div>
     </section>
 
-<!-- Start of video section -->
+<!-- end of quote section -->
 
-    <div class="video-section" id="about">
-      <video id="vid_elem" preload="auto" autoplay="true" loop="loop" muted="muted" poser="../Images/videoGIF.JPG">
-        <source src="video.mp4" type="video/mp4">
-          Video no Supported
-      </video>
-
-      <div class="video-overlay">
-          <h1>About Me</h1>
-      </div>
-    </div>
-
-
-<!-- End of video section -->
-
-    <section id="info1">
+    <!-- <section id="info1">
       <div class="container">
         <div class="row">
 
@@ -115,40 +112,49 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
 
-<h1 class="main-header">Skills</h1>
+<!-- start of skill section  -->
+
+<h1 data-sr="enter top over 1s and move 50px"class="main-header">Skills</h1>
 
     <section id="info1">
       <div class="container">
         <div class="row">
 
-          <div data-sr="enter right over 2s and move 100px vF 0.2" class="col-mid-6 col-sm-6 skills">
-            <div class="info-left">
-              <h2>Languages</h2>
-              <ul>
-                <li>JavaScript</li>
-                <li>Ruby</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>C++</li>
-              </ul>
+          <div data-sr="enter right over 1s and move 100px vF 0.2" class="col-mid-6 col-sm-6 skills">
+            <div class="info-left" id="skills">
+              <h2><b>Languages</b></h2>
+              <div class="skill-container">
+                <li data-sr="wait 1s enter right over 1s">JavaScript</li>
+                <li data-sr="wait 1.5s enter right over 1s">Ruby</li>
+                <li data-sr="wait 2s enter right over 1s">Java</li>
+                <li data-sr="wait 2.5s enter right over 1s">Python</li>
+                <li data-sr="wait 3s enter right over 1s">C++</li>
+                <li data-sr="wait 3.5s enter right over 1s">HTML 5</li>
+                <li data-sr="wait 4s enter right over 1s">CSS 3</li>
+              </div>
+
               <br>
 
             </div>
 
           </div>
 
-          <div data-sr="enter right over 2s and move 100px vF 0.2" class="col-mid-6 col-sm-6 skills">
-            <div class="info-left">
-              <h2>Languages</h2>
-              <ul>
-                <li>JavaScript</li>
-                <li>Ruby</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>C++</li>
-              </ul>
+          <div data-sr="enter right over 1s and move 100px vF 0.2" class="col-mid-6 col-sm-6 skills">
+            <div class="info-left" id="skills">
+              <h2><b>Other</b></h2>
+                <div class="skill-container">
+                  <li data-sr="wait 1s enter right over 1s">Adobe Photoshop</li>
+                  <li data-sr="wait 1.5s enter right over 1s">Adobe After Effects</li>
+                  <li data-sr="wait 2s enter right over 1s">Adobe Premier Pro</li>
+                  <li data-sr="wait 2.5s enter right over 1s">Adobe Illustrator</li>
+                  <li data-sr="wait 3s enter right over 1s">Adobe InDesign</li>
+                  <li data-sr="wait 3.5s enter right over 1s">FL Studio</li>
+                  <li data-sr="wait 4s enter right over 1s">Logic Pro</li>
+
+                </div>
+
               <br>
 
             </div>
@@ -159,6 +165,35 @@
         </div>
       </div>
     </section>
+
+    <!-- end of skill section -->
+
+    <!-- start of quote section -->
+
+        <section id="testemonial1">
+          <div class="container">
+            <p data-sr="wait 0.2s please, enter up over 2.5s and move up 10px">Choose a job you love, and you will never have to work a day in your life.</p>
+            <p data-sr="wait 0.2s please, enter right, 50px, over 2.5s">- Confucious</p>
+          </div>
+        </section>
+
+    <!-- end of quote section -->
+
+    <!-- Start of video section -->
+
+        <div class="video-section">
+          <video id="vid_elem" preload="auto" autoplay="true" loop="loop" muted="muted" poser="../Images/videoGIF.JPG">
+            <source src="video.mp4" type="video/mp4">
+              Video no Supported
+          </video>
+
+          <div class="video-overlay">
+              <h1>Work</h1>
+          </div>
+        </div>
+
+
+    <!-- End of video section -->
 
     <hr>
 

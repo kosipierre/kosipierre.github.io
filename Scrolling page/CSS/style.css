@@ -31,7 +31,6 @@ hr {
 
 }
 
-
 .pimg{
   background-image:url('../Images/street.jpg');
   min-height:400px;
@@ -56,7 +55,7 @@ hr {
   background-color: #fff;
   width: 500px;
   text-align: center;
-  opacity: 1;
+  opacity: 1!important;
   transition: opacity 0.3s ease;
 }
 
@@ -84,6 +83,7 @@ hr {
 }
 
 .main-header {
+  margin-top: 70px;
   text-align: center;
   font-size:100px;
 
@@ -91,6 +91,12 @@ hr {
 
 .skills {
   text-align: center;
+}
+
+.skill-container {
+  border-width: 5px;
+  border-style: solid;
+  width:
 }
 
 #showcase h1 {
@@ -101,6 +107,8 @@ hr {
 #showcase img {
   width: 60%;
   margin-left: 100px;
+  margin-top: 85px;
+  border-radius: 30%;
 }
 
 #showcase .showcase-right {
@@ -143,6 +151,14 @@ hr {
   margin-top: 40px;
   object-position: center;
   border-radius: 5000px;
+}
+
+#info1 li {
+  list-style: none;
+}
+
+#skills {
+  font-size: 30px
 }
 
 #info1 .info-right {
