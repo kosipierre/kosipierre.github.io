@@ -83,6 +83,16 @@ hr {
   font-weight: bold;
 }
 
+.main-header {
+  text-align: center;
+  font-size:100px;
+
+}
+
+.skills {
+  text-align: center;
+}
+
 #showcase h1 {
   font-size: 50px;
   margin-bottom: 20px;
@@ -129,9 +139,9 @@ hr {
 }
 
 #info1 img {
-  width: 70%;
+  width: 100%;
   margin-top: 40px;
-  margin-left: 90px;
+  object-position: center;
   border-radius: 5000px;
 }
 
