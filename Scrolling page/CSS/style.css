@@ -96,7 +96,7 @@ hr {
 .skill-container {
   border-width: 5px;
   border-style: solid;
-  width:
+  background-color: white;
 }
 
 #showcase h1 {
@@ -158,7 +158,7 @@ hr {
 }
 
 #skills {
-  font-size: 30px
+  font-size: 30px;
 }
 
 #info1 .info-right {
