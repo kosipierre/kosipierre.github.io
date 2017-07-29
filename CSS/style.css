@@ -17,12 +17,6 @@ br {
   line-height: 50px;
 }
 
-.bnone{
- border-style: none !important;
- color: none !important;
- background-color: none !important;
-}
-
 hr {
   color: #000;
   background-color: #000;
