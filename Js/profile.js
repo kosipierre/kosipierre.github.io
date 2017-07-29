@@ -22,6 +22,18 @@ $(document).ready(function(){
       });
     } // End if
 
-  });
+  }); //end function
+
+  //VIdeo on Hover Section
+
+  var figure = $(".videoo").hover(hoverVideo, hideVideo );
+
+  function hoverVideo(e) {
+      $('video', this).get(0).play();
+  }
+
+  function hideVideo(e) {
+      $('video', this).get(0).pause();
+  }
 
 });

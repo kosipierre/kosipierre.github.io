@@ -13,12 +13,24 @@ p{
   font-family: Roboto;
 }
 
+br {
+  line-height: 50px;
+}
+
+.bnone{
+ border-style: none !important;
+ color: none !important;
+ background-color: none !important;
+}
+
 hr {
   color: #000;
   background-color: #000;
   height: 5px;
   margin-bottom: 0px
 }
+
+
 
 .pimg{
   position:relative;
@@ -39,18 +51,46 @@ hr {
 .video-section {
   position: relative;
   width: 100%auto;
-  max-height: 550px;
+  max-height: 400px;
   overflow: hidden;
 }
+
+.video-cube {
+  width: 450px;
+  height:auto;
+  overflow: hidden;
+  border-style: solid;
+  /*margin-left: 200px;*/
+  /*padding: 50px 50px 50px 50px;
+  margin-left: 20px*/
+  /*position: relative;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 0);*/
+}
+
+.videoo {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-150%, 0);
+}
+/*#vidds video {
+   padding-left: 100px;
+}*/
 
 #vid_elem {
   width: 100%;
 }
 
 .video-overlay {
-  position:absolute;
-  top: 40%;
-  left: 33%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #fff;
   width: 500px;
   text-align: center;
