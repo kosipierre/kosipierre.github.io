@@ -51,9 +51,10 @@ hr {
 
 .video-cube {
   width: 450px;
-  height:auto;
+  height:250px;
   overflow: hidden;
-  border-style: solid;
+  border-style:ridge;
+  border-color: white;
   /*margin-left: 200px;*/
   /*padding: 50px 50px 50px 50px;
   margin-left: 20px*/
@@ -62,6 +63,12 @@ hr {
   top: 50%;
   left: 50%;
   transform: translate(50%, 0);*/
+  opacity: 0.3;
+  transition: .5s ease;
+}
+
+.videoo:hover .video-cube{
+  opacity: 1;
 }
 
 .videoo {
@@ -71,6 +78,7 @@ hr {
   top: 50%;
   left: 50%;
   transform: translate(-150%, 0);
+  background-color: black;
 }
 /*#vidds video {
    padding-left: 100px;
@@ -132,6 +140,37 @@ hr {
   background-color: white;
 }
 
+.pre-HoverText {
+
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.hoverText {
+  background-color: #fff;
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: Poppins;
+}
+
+.videoo:hover .pre-HoverText {
+  opacity: 0;
+}
+
+
+
+#icon {
+  height: 100px;
+  length: 100px;
+  margin-bottom: 20px;
+}
+
 #showcase h1 {
   font-size: 50px;
   margin-bottom: 20px;
@@ -179,12 +218,12 @@ hr {
   margin-bottom: 100px;
 }
 
-#info1 img {
+/*#info1 img {
   width: 100%;
   margin-top: 40px;
   object-position: center;
   border-radius: 5000px;
-}
+}*/
 
 #info1 li {
   list-style: none;
