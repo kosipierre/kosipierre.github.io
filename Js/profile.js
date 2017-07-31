@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-  $("#continue, #navHome, #navAbout, #navContact").on('click', function(event) {
+  $("#continue, #navHome, #navAbout, #navContact, #navWork").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
