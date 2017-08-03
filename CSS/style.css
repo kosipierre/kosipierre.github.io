@@ -143,13 +143,13 @@ hr {
 
 .main-header h1 {
   display: inline-block;
-  font-size:90px;
+  font-size:70px;
   margin-left: 30px;
   transition: .5s ease;
 }
 
 .main-header h1:hover {
-  font-size: 110px;
+  font-size: 90px;
 }
 
 .skills {
@@ -182,6 +182,19 @@ hr {
 
 .videoo:hover .pre-HoverText {
   opacity: 0;
+}
+
+.eduClass {
+  display: none;
+}
+
+.awdClass {
+  display: none;
+}
+
+#Skills {
+  color: #000;
+  font-weight: bold;
 }
 
 #icon {

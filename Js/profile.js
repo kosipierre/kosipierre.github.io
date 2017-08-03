@@ -1,36 +1,95 @@
-$(document).ready(function() {
-
-// added JS comment for testing dev branch
+$(document).ready(function(){
 
 // Scolling About Me Section
+
+
+
+    var skills = $(".skillClass");
+    var edu = $(".eduClass");
+    var awards = $(".awdClass");
+
   $("#Skills").on("click", function(event)
     {
-        alert("Skills Has Been Clicked");
+      // alert("has Been Clickd");
 
-        //
-        // a = $("#info1");
-        // b = $("#infoA");
-        //
-        // var awardStatus = "1";
-        // if (awardStatus == "1") {
-        //
-        //   $(a).fadeTo("slow", 100)
-        //
-        //   %(a).animate( {
-        //     opacity: 0,
-        //     left: "200px",
-        // };
+      $("#Skills").css('font-weight', "bold");
+      $("#Education").css('font-weight', "normal");
+      $("#Awards").css('font-weight', "normal");
 
-        // if ($(".skillClass").is(':hidden')) {
-        // $(".skillClass").show("slide", { direction: "down" }, 1000);
-        // } else {
-        // $(".skillClass").hide(1000);
-        // $("#info1").toggle( "slow", function() {
-        //     // Animation complete.
-        // });
 
-        $(".skillClass").fadeOut("slow");
+      if ($(skills).is(":hidden")) {
+
+        if ($(edu).is(":visible")) {
+          $(edu).animate({opacity:0});
+          $(edu).toggle("slow");
+        }
+
+        if ($(awards).is(":visible")) {
+          $(awards).animate({opacity:0});
+          $(awards).toggle("slow");
+        }
+
+        $(skills).animate({opacity:100});
+        $(skills).toggle("slow");
+
       }
+
+
+    });
+
+    $("#Education").on("click", function(event)
+      {
+        // alert("has Been Clickd");
+
+
+        $("#Education").css('font-weight', "bold");
+        $("#Skills").css('font-weight', "normal");
+        $("#Awards").css('font-weight', "normal");
+
+        if ($(edu).is(":hidden")) {
+
+          if ($(skills).is(":visible")) {
+            $(skills).animate({opacity:0});
+            $(skills).toggle("slow");
+          }
+
+          if ($(awards).is(":visible")) {
+            $(awards).animate({opacity:0});
+            $(awards).toggle("slow");
+          }
+
+          $(edu).animate({opacity:100});
+          $(edu).toggle("slow");
+        }
+
+      });
+
+      $("#Awards").on("click", function(event)
+        {
+          // alert("has Been Clickd");
+
+
+          $("#Awards").css('font-weight', "bold");
+          $("#Skills").css('font-weight', "normal");
+          $("#Education").css('font-weight', "normal");
+
+          if ($(awards).is(":hidden")) {
+
+            if ($(edu).is(":visible")) {
+              $(edu).animate({opacity:0});
+              $(edu).toggle("slow");
+            }
+
+            if ($(skills).is(":visible")) {
+              $(skills).animate({opacity:0});
+              $(skills).toggle("slow");
+            }
+
+            $(awards).animate({opacity:100});
+            $(awards).toggle("slow");
+          }
+
+        });
 
 // ENd of Scrolling About Me Section...
 
