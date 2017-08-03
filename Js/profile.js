@@ -1,16 +1,36 @@
-$(document).ready(function(){
-  // added JS comment for testing dev branch
+$(document).ready(function() {
+
+// added JS comment for testing dev branch
 
 // Scolling About Me Section
   $("#Skills").on("click", function(event)
     {
-        // alert("Skills Has Been Clicked")
-        a = $("#info1")
-        // $(a).fadeTo("slow", 0)
-        %(".superSkills").animate( {
-          left: "+=50px"
-        });
-    });
+        alert("Skills Has Been Clicked");
+
+        //
+        // a = $("#info1");
+        // b = $("#infoA");
+        //
+        // var awardStatus = "1";
+        // if (awardStatus == "1") {
+        //
+        //   $(a).fadeTo("slow", 100)
+        //
+        //   %(a).animate( {
+        //     opacity: 0,
+        //     left: "200px",
+        // };
+
+        // if ($(".skillClass").is(':hidden')) {
+        // $(".skillClass").show("slide", { direction: "down" }, 1000);
+        // } else {
+        // $(".skillClass").hide(1000);
+        // $("#info1").toggle( "slow", function() {
+        //     // Animation complete.
+        // });
+
+        $(".skillClass").fadeOut("slow");
+      }
 
 // ENd of Scrolling About Me Section...
 
