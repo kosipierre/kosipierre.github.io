@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  // added JS comment for testing dev branch
 
 // Scolling About Me Section
   $("#Skills").on("click", function(event)
