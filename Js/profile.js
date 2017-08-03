@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+// Scolling About Me Section
+  $("#Skills").on("click", function(event)
+    {
+        // alert("Skills Has Been Clicked")
+        a = $("#info1")
+        // $(a).fadeTo("slow", 0)
+        %(".superSkills").animate( {
+          left: "+=50px"
+        });
+    });
+
+// ENd of Scrolling About Me Section...
+
 
   $("#continue, #navHome, #navAbout, #navContact, #navWork").on('click', function(event) {
 

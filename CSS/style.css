@@ -134,9 +134,22 @@ hr {
 
 .main-header {
   margin-top: 70px;
-  text-align: center;
-  font-size:100px;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 
+.main-header h1 {
+  display: inline-block;
+  font-size:90px;
+  margin-left: 30px;
+  transition: .5s ease;
+}
+
+.main-header h1:hover {
+  font-size: 110px;
 }
 
 .skills {
@@ -150,7 +163,6 @@ hr {
 }
 
 .pre-HoverText {
-
   transition: .5s ease;
   opacity: 1;
   position: absolute;
@@ -239,6 +251,7 @@ hr {
 #info1 {
   margin-top: 90px;
   margin-bottom: 100px;
+  position: relative;
 }
 
 /*#info1 img {
