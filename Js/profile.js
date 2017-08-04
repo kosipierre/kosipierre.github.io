@@ -3,7 +3,7 @@ $(document).ready(function(){
 // Scolling About Me Section
 
 
-
+    
     var skills = $(".skillClass");
     var edu = $(".eduClass");
     var awards = $(".awdClass");

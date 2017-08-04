@@ -114,6 +114,10 @@ hr {
 
 }
 
+.socialCerts {
+  background-color: white;
+}
+
 .onPoint {
   length: 50%;
   height: 50%;
@@ -192,6 +196,22 @@ hr {
   display: none;
 }
 
+#certs {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 60px;
+}
+
+
+
+#certs h1 {
+  /*margin-bottom: 5px;*/
+  position: relative;
+  color: white;
+  background-color: black;
+  width: 100%
+}
+
 #Skills {
   color: #000;
   font-weight: bold;
@@ -210,11 +230,13 @@ hr {
   margin-left: 20px;
   margin-right: 20px;
   transition: 0.5s ease;
+  text-decoration: none;
 }
 
 #iconP:hover {
   height: 150px;
   length: 150px;
+  text-decoration: none;
 }
 
 #showcase h1 {
