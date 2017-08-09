@@ -1,3 +1,4 @@
+
 body {
   margin-top: 100px;
   font-size: 16px;
@@ -49,6 +50,7 @@ hr {
   overflow: hidden;
 }
 
+
 .video-cube {
   width: 450px;
   height:250px;
@@ -80,6 +82,7 @@ hr {
   transform: translate(-150%, 0);
   background-color: black;
 }
+
 /*#vidds video {
    padding-left: 100px;
 }*/
@@ -326,4 +329,178 @@ hr {
 footer {
   padding: 40px;
   text-align: center;
+}
+
+@media (max-width: 1300px) {
+
+
+  .main-header h1 {
+    display: inline-block;
+    font-size:55px;
+    margin-left: 60px;
+    transition: .5s ease;
+  }
+
+  .main-header h1:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 53px;
+  }
+
+}
+
+@media (max-width: 1100px) {
+
+  .video-cube {
+    width: 225px;
+    height:125px;
+  }
+
+  .main-header h1 {
+    display: inline-block;
+    font-size:50px;
+    margin-left: 60px;
+    transition: .5s ease;
+  }
+
+  .main-header h1:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+}
+
+@media (max-width: 1400px) and (min-width: 1101px) {
+
+	/*body{
+    background-color: blue;
+  }*/
+  .video-cube {
+    width: 350px;
+    height:195px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .main-header h1 {
+    display: block;
+    text-align: center;
+    font-size:40px;
+    margin-left: 5px;
+    transition: .5s ease;
+  }
+
+  .main-header h1:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+  }
+}
+
+
+@media (max-width: 850px) {
+  .main-header h1 {
+    display: block;
+    text-align: center;
+    font-size:40px;
+    margin-left: 5px;
+    transition: .5s ease;
+  }
+
+  .main-header h1:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+
+	/*body{
+    background-color: blue;
+  }*/
+  .video-cube {
+    width: 225px;
+    height:125px;
+  }
+
+  .videoo {
+    display: block;
+    width:225px;
+    position: relative;
+    align-items: center;
+    top: 50%;
+    left: 35%;
+    transform: translate(0%, 0);
+    background-color: black;
+  }
+
+  .pre-HoverText {
+    transition: .5s ease;
+    opacity: 1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .hoverText {
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    /*padding: auto;*/
+    font-family: Poppins;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+  .videoo {
+    display: block;
+    width:225px;
+    position: relative;
+    align-items: center;
+    top: 50%;
+    left: 30%;
+    transform: translate(0%, 0);
+    background-color: black;
+  }
+
+
+}
+
+@media screen and (max-width: 350px) {
+
+
+  .videoo {
+    display: block;
+    width:225px;
+    position: relative;
+    align-items: center;
+    top: 50%;
+    left: 20%;
+    transform: translate(0%, 0);
+    background-color: black;
+  }
+
+  .main-header h1 {
+    display: block;
+    text-align: center;
+    font-size:20px;
+    margin-left: 5px;
+    transition: .5s ease;
+  }
+
+  .main-header h1:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
 }
