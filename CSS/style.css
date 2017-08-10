@@ -91,6 +91,14 @@ hr {
   width: 100%;
 }
 
+#info-center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
 .video-overlay {
   position: absolute;
   top: 50%;
@@ -146,6 +154,7 @@ hr {
   align-items: center;
   left: 50%;
   transform: translate(-50%, 0);
+  cursor: pointer
 }
 
 .main-header h1 {
@@ -247,6 +256,22 @@ hr {
   margin-bottom: 20px;
 }
 
+#showcase iframe {
+  width: 90%;
+  max-height: 350px;
+}
+
+#showcase1 iframe {
+  width: 90%;
+  max-height: 400px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-22%);
+}
+
 #showcase img {
   width: 60%;
   margin-left: 100px;
@@ -326,6 +351,10 @@ hr {
 
 }
 
+#workHead {
+
+}
+
 footer {
   padding: 40px;
   text-align: center;
@@ -397,6 +426,18 @@ footer {
     font-weight: bold;
     font-size: 38px;
   }
+
+.blue {
+  color: blue;
+}
+
+
+  #workHead {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+  }
+
 }
 
 
