@@ -25,7 +25,10 @@ hr {
   margin-bottom: 0px
 }
 
-
+.side {
+  float: left;
+  padding: 20px
+}
 
 .pimg{
   position:relative;
@@ -208,6 +211,17 @@ hr {
   display: none;
 }
 
+#mainCenter {
+
+  width: 50%;
+
+}
+
+#mainHeader {
+  text-align: center;
+  font-size: 200px;
+}
+
 #certs {
   margin-top: 80px;
   text-align: center;
@@ -249,11 +263,6 @@ hr {
   height: 150px;
   length: 150px;
   text-decoration: none;
-}
-
-#showcase h1 {
-  font-size: 50px;
-  margin-bottom: 20px;
 }
 
 #showcase iframe {
